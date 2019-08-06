@@ -74,7 +74,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nirenjan/posix/cli"
+	"git.nirenjan.com/n/posix/cli"
 )
 
 func init() {

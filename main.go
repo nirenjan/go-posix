@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/nirenjan/posix/cli"
+	"git.nirenjan.com/n/posix/cli"
 
 	// Commands
-	_ "github.com/nirenjan/posix/cmds/logname"
-	_ "github.com/nirenjan/posix/cmds/sleep"
+	_ "git.nirenjan.com/n/posix/cmds/logname"
+	_ "git.nirenjan.com/n/posix/cmds/sleep"
 )
 
 func main() {
