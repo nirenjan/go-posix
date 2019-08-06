@@ -64,7 +64,7 @@ func init() {
 
 func logname() {
 	if len(os.Args) != 1 {
-		fmt.Fprintf(os.Stderr, "Usage: logname\n")
+		fmt.Fprintln(os.Stderr, "Usage: logname")
 		os.Exit(1)
 	}
 
