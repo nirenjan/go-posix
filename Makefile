@@ -14,7 +14,7 @@ all: symlinks
 .PHONY: symlinks
 symlinks: $(PROGRAM)
 	$(Q)find ./cmds -mindepth 1 -maxdepth 1 -type d -exec basename {} \; |\
-		xargs -n1 ln -s $^
+		xargs -n1 ln -snf $^
 
 $(PROGRAM): $(DEPS)
 	@echo "Building $@"
