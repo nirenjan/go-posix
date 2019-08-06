@@ -5,6 +5,7 @@ import (
 
 	// Commands
 	_ "github.com/nirenjan/posix/cmds/logname"
+	_ "github.com/nirenjan/posix/cmds/sleep"
 )
 
 func main() {
