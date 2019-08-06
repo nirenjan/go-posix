@@ -1,0 +1,7 @@
+# Ignore everything except README, LICENSE and *.go
+*
+!*/
+!.gitignore
+!**/*.go
+!*.md
+![A-Z]*
