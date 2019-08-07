@@ -33,3 +33,7 @@ format:
 	$(Q)go fmt .
 	$(Q)go fmt ./cli
 	$(Q)go fmt ./cmds/*
+
+	@echo "Running goimports"
+	$(Q)find . -name '*.go' | xargs -n1 goimports -w
+
