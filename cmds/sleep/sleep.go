@@ -84,7 +84,7 @@ func init() {
 func sleep() {
 	if len(os.Args) != 2 {
 		fmt.Fprintln(os.Stderr, "Usage: sleep <seconds>")
-        os.Exit(1)
+		os.Exit(1)
 	}
 
 	secs, err := strconv.Atoi(os.Args[1])

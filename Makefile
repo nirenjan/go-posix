@@ -26,3 +26,10 @@ clean:
 	$(Q)find . -maxdepth 1 -type l -delete
 	@echo "Deleting $(PROGRAM)"
 	$(Q)rm -f $(PROGRAM)
+
+.PHONY: format
+format:
+	@echo "Running go fmt"
+	$(Q)go fmt .
+	$(Q)go fmt ./cli
+	$(Q)go fmt ./cmds/*
