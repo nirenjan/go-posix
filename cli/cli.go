@@ -25,11 +25,6 @@ func Register(cmd string, handler func()) error {
 }
 
 func Parse() {
-	// XXX: Debugs
-	for i, v := range os.Args {
-		fmt.Printf("%v: '%v'\n", i, v)
-	}
-
 	var offset int
 	var cmd string
 	cmd = filepath.Base(os.Args[0])
