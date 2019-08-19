@@ -1,16 +1,16 @@
 package main
 
 import (
-	"git.nirenjan.com/n/posix/cli"
+	"nirenjan.org/posix/cli"
 
 	// Commands
-	_ "git.nirenjan.com/n/posix/cmds/basename"
-	_ "git.nirenjan.com/n/posix/cmds/dirname"
-	_ "git.nirenjan.com/n/posix/cmds/echo"
-	_ "git.nirenjan.com/n/posix/cmds/false"
-	_ "git.nirenjan.com/n/posix/cmds/logname"
-	_ "git.nirenjan.com/n/posix/cmds/sleep"
-	_ "git.nirenjan.com/n/posix/cmds/true"
+	_ "nirenjan.org/posix/cmds/basename"
+	_ "nirenjan.org/posix/cmds/dirname"
+	_ "nirenjan.org/posix/cmds/echo"
+	_ "nirenjan.org/posix/cmds/false"
+	_ "nirenjan.org/posix/cmds/logname"
+	_ "nirenjan.org/posix/cmds/sleep"
+	_ "nirenjan.org/posix/cmds/true"
 )
 
 func main() {

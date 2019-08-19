@@ -55,7 +55,7 @@ import (
 	"os"
 	"os/user"
 
-	"git.nirenjan.com/n/posix/cli"
+	"nirenjan.org/posix/cli"
 )
 
 func init() {

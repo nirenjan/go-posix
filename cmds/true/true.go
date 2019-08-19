@@ -3,7 +3,7 @@ package true
 import (
 	"os"
 
-	"git.nirenjan.com/n/posix/cli"
+	"nirenjan.org/posix/cli"
 )
 
 func init() {
